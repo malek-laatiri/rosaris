@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Student Import Help\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-03 18:21+0200\n"
+"PO-Revision-Date: 2025-03-14 23:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _help:1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: Help_en.php\n"
+
+#: Help_en.php:22
+msgid ""
+"<i>Student Import</i> allows you to import a student database contained in "
+"an <b>Excel</b> spreadsheet or a <b>CSV</b> file."
+msgstr ""
+"Програмата <i>Импортиране на студенти</i> Ви позволява да имортирате данни "
+"за студенти от таблица, направена с <b>Excel</b>, или от <br>CSV</b> файл."
+
+#: Help_en.php:23
+msgid ""
+"First thing, it is recommended to <b>backup your database</b> in case "
+"something goes wrong."
+msgstr ""
+"Първото нещо, което трябва да направите, е да архивирате базата данни за в "
+"случай, че нещо не стане, като се очаква."
+
+#: Help_en.php:24
+msgid ""
+"Then, select the Excel (.xls, .xlsx) or CSV (.csv) file containing your "
+"students data using the \"Select CSV or Excel file\". Then, click the "
+"\"Submit\" button to upload the file. Please note that if you select an "
+"Excel file, only the first spreadsheet will be uploaded."
+msgstr ""
+
+#: Help_en.php:25
+msgid ""
+"On the next screen, you will be able to associate a column to each Student "
+"Field. Also set the Enrollment options that will apply to every student. "
+"Please note that the fields in <span style=\"color:red;\">red</span> are "
+"mandatory. Check the \"Import first row\" checkbox at the top of the screen "
+"if your file's first row contains student data instead of column labels. "
+"Please also note that the checked state for fields of the <i>Checkbox</i> "
+"type is <i>Y</i>. Once you are set, click the \"Import Students\" button."
+msgstr ""
+
+#~ msgid "Student Import"
+#~ msgstr "Импортиране на студенти"
+
+#~ msgid "Cannot open file."
+#~ msgstr "Не може да се отвори файла."
+
+#, php-format
+#~ msgid "%s students were imported."
+#~ msgstr "%s студенти бяха импортирани."
+
+#~ msgid "Database Backup"
+#~ msgstr "Архивиране на базата данни"
+
+#, php-format
+#~ msgid "Maximum file size: %01.0fMb"
+#~ msgstr "Максимален размер на файл: %01.0fMb"
+
+#~ msgid "Select CSV or Excel file"
+#~ msgstr "Избиране на CSV или файл от Excel"
+
+#~ msgid "Submit"
+#~ msgstr "Изпращане"
+
+#, php-format
+#~ msgid "%s rows"
+#~ msgstr "%s реда"
+
+#~ msgid "Import Students"
+#~ msgstr "Импортиране на студенти"
+
+#~ msgid ""
+#~ "Are you absolutely ready to import students? Make sure you have backed up "
+#~ "your database!"
+#~ msgstr ""
+#~ "Напълно ли сте готови да импортирате студенти? Уверете се, че сте "
+#~ "архивирали базата данни!"
+
+#~ msgid "Stop"
+#~ msgstr "Стоп"
+
+#~ msgid "Import first row"
+#~ msgstr "Импортиране на първия ред"
+
+#~ msgid "Reset form"
+#~ msgstr "Нулиране на формуляра"
+
+#~ msgid "Student Fields"
+#~ msgstr "Полета данни на студентите"
+
+#~ msgid "First Name"
+#~ msgstr "Малко име"
+
+#~ msgid "Middle Name"
+#~ msgstr "Бащино име"
+
+#~ msgid "Last Name"
+#~ msgstr "Фамилно име"
+
+#~ msgid "IDs are automatically generated if you select \"N/A\"."
+#~ msgstr "Ид.номера ще се генерират автоматично, ако изберете “Н/З”."
+
+#, php-format
+#~ msgid "%s ID"
+#~ msgstr "%s Ид.Номера"
+
+#~ msgid "Username"
+#~ msgstr "Потребителско име"
+
+#~ msgid "Password"
+#~ msgstr "Парола"
+
+#~ msgid "Enrollment"
+#~ msgstr "Записване"
+
+#~ msgid "Grade Level"
+#~ msgstr "Ниво на обучение"
+
+#~ msgid "Default"
+#~ msgstr "По подразбиране"
+
+#~ msgid "Calendar"
+#~ msgstr "Календар"
+
+#~ msgid "Next grade at current school"
+#~ msgstr "Следващо ниво в това училище"
+
+#~ msgid "Retain"
+#~ msgstr "Отписване"
+
+#~ msgid "Do not enroll after this school year"
+#~ msgstr "Да не се запише след тази учебна година"
+
+#~ msgid "Attendance Start Date this School Year"
+#~ msgstr "Дата на започване тази учебна година"
+
+#~ msgid "If the date is left empty, students will not be enrolled (inactive)."
+#~ msgstr ""
+#~ "Ако датата се остави празна, студентите ще са незаписани (неактивни)."
+
+#~ msgid "No names were found."
+#~ msgstr "Не са намерени имена."
+
+#~ msgid ""
+#~ "A user with that username already exists. Choose a different username and "
+#~ "try again."
+#~ msgstr ""
+#~ "Потребител с такова потребителско име вече съществува. Изберете друго "
+#~ "потребителско име и опитайте отново."
+
+#~ msgid "Please enter valid Numeric data."
+#~ msgstr "Моля, въведете валидно чесло."
+
+#~ msgid "Some dates were not entered correctly."
+#~ msgstr "Някои дати не бяха въведени коректно."
+
+#~ msgid "Pull-Down"
+#~ msgstr "Падащо меню"
+
+#~ msgid "Auto Pull-Down"
+#~ msgstr "Падащо мено с добавяне"
+
+#~ msgid "Edit Pull-Down"
+#~ msgstr "Падащо меню с редактиране"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Checkbox"
+#~ msgstr "Отметка"
+
+#~ msgid "Number"
+#~ msgstr "Число"
+
+#~ msgid "Select Multiple from Options"
+#~ msgstr "Избиране няколко възможности"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Long Text"
+#~ msgstr "Дълъг текст"
+
+#~ msgid "CSV columns reference: see \"CSV_COLUMNS_REFERENCE\" file."
+#~ msgstr ""
+#~ "Referencia de columnas CSV: ver el archivo \"CSV_COLUMNS_REFERENCE\"."
+
+#~ msgid "The following required columns were not found in the CSV file: %s"
+#~ msgstr ""
+#~ "Las columnas requeridas no han sido encontradas en el archivo CSV: %s"

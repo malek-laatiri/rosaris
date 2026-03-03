@@ -1,0 +1,369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Student Import Premium Module for RosarioSIS.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-22 18:44+0200\n"
+"PO-Revision-Date: 2025-03-14 23:23+0100\n"
+"Last-Translator: François Jacquet <info@rosariosis.org>\n"
+"Language-Team: RosarioSIS <info@rosariosis.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: ;dgettext:2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Menu.php:13 Menu.php:19
+msgid "Student Import"
+msgstr "Import d'Élèves"
+
+#: StudentsImport.php:53 StudentsImport.php:75
+msgid "Cannot open file."
+msgstr "Datoteke ni mogoče odpreti."
+
+#: StudentsImport.php:83
+#, php-format
+msgid "%s students were imported."
+msgstr "%s dijakov je bilo uvoženih."
+
+#: StudentsImport.php:140
+msgid "Select CSV or Excel file"
+msgstr "Izberite datoteko CSV ali Excel"
+
+#: StudentsImport.php:171
+#, php-format
+msgid "%s rows"
+msgstr "%s vrstic"
+
+#: StudentsImport.php:173 StudentsImport.php:494
+msgid "Import Students"
+msgstr "Importer Élèves"
+
+#: StudentsImport.php:187
+msgid ""
+"Are you absolutely ready to import students? Make sure you have backed up "
+"your database!"
+msgstr ""
+"Ali ste povsem pripravljeni na uvoz študentov? Prepričajte se, da ste "
+"varnostno kopirali bazo podatkov!"
+
+#: StudentsImport.php:197
+msgid "Stop"
+msgstr "Stop"
+
+#: StudentsImport.php:229
+msgid "Import first row"
+msgstr "Uvozi prvo vrstico"
+
+#: StudentsImport.php:236
+msgid "Reset form"
+msgstr "Ponastavi obrazec"
+
+#: StudentsImport.php:263
+msgid "IDs are automatically generated if you select \"N/A\"."
+msgstr "ID-ji se ustvarijo samodejno, če izberete »N/A«."
+
+#: StudentsImport.php:416
+msgid "If the date is left empty, students will not be enrolled (inactive)."
+msgstr "Če je datum prazen, dijaki ne bodo vpisani (neaktivni)."
+
+#: StudentsImport.php:428
+msgid ""
+"Notifications are sent if Username, Password, Email Address are set and "
+"Attendance Start Date this School Year is on or before today."
+msgstr ""
+"Obvestila se pošljejo, če so nastavljeni uporabniško ime, geslo, e-poštni "
+"naslov in začetni datum prisotnosti v tem šolskem letu na današnji dan ali "
+"prej."
+
+#: StudentsImport.php:434
+msgid "Send email notification to Students"
+msgstr "Pošlji e-poštno obvestilo dijakom"
+
+#: includes/StudentsImport.fnc.php:81
+#, php-format
+msgid "Excel error reading file %s: %s. Please convert the file to CSV format."
+msgstr ""
+
+#: includes/StudentsImport.fnc.php:340
+#, php-format
+msgid "%d notifications sent."
+msgstr "%d poslanih obvestil."
+
+#: includes/StudentsImport.fnc.php:465
+msgid "No names were found."
+msgstr "Imena niso bila najdena."
+
+#~ msgid "Student Import Premium"
+#~ msgstr "Uvoz dijakov"
+
+#, php-format
+#~ msgid "%s students were updated."
+#~ msgstr "%s dijakov je bilo posodobljenih."
+
+#~ msgid "Database Backup"
+#~ msgstr "Varnostno kopiranje baze podatkov"
+
+#, php-format
+#~ msgid "Maximum file size: %01.0fMb"
+#~ msgstr "Največja velikost datoteke: %01.0fMb"
+
+#~ msgid "Mode"
+#~ msgstr "Način"
+
+#~ msgid "Create Students"
+#~ msgstr "Kreiraj Dijake"
+
+#~ msgid "Update Existing Students"
+#~ msgstr "Posodobite obstoječe dijake"
+
+#~ msgid "Add Student's Address"
+#~ msgstr "Dodajte naslov dijaka"
+
+#~ msgid "Add Contact"
+#~ msgstr "Dodaj stik"
+
+#~ msgid "Checkbox fields checked state"
+#~ msgstr "Stanje potrditvenih polj označeno"
+
+#~ msgid "Username"
+#~ msgstr "Uporabniško ime"
+
+#~ msgid "Name"
+#~ msgstr "Ime"
+
+#~ msgid "Identify Student"
+#~ msgstr "Prepoznajte dijaka"
+
+#~ msgid "First Name"
+#~ msgstr "Ime"
+
+#~ msgid "Last Name"
+#~ msgstr "Priimek"
+
+#~ msgid "Student Fields"
+#~ msgstr "Dijaška polja"
+
+#, php-format
+#~ msgid "Generic: %s"
+#~ msgstr "Splošno: %s"
+
+#~ msgid "extra"
+#~ msgstr "dodatno"
+
+#~ msgid "Password"
+#~ msgstr "Geslo"
+
+#~ msgid "Append to Generic Password"
+#~ msgstr "Dodaj generičnemu geslu"
+
+#~ msgid "Enrollment"
+#~ msgstr "Vpis"
+
+#~ msgid "Grade Level"
+#~ msgstr "Letnik"
+
+#~ msgid "Default"
+#~ msgstr "Privzeto"
+
+#~ msgid "Calendar"
+#~ msgstr "Koledar"
+
+#~ msgid "Retain"
+#~ msgstr "Obdržati"
+
+#~ msgid "Do not enroll after this school year"
+#~ msgstr "Po tem šolskem letu se ne vpisujte"
+
+#~ msgid "Attendance Start Date this School Year"
+#~ msgstr "Datum začetka obiskovanja v tem šolskem letu"
+
+#~ msgid ""
+#~ "Moodle will create a password and send an email to user. Account is "
+#~ "created in Moodle only if Username and Email Address are set."
+#~ msgstr ""
+#~ "Moodle bo ustvaril geslo in uporabniku poslal e-pošto. Račun se ustvari v "
+#~ "Moodlu samo, če sta nastavljena uporabniško ime in e-poštni naslov."
+
+#~ msgid "Create Student in Moodle"
+#~ msgstr "Ustvari dijaka v Moodlu"
+
+#~ msgid "Student's Address"
+#~ msgstr "Naslov dijaka"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Street"
+#~ msgstr "Ulica"
+
+#~ msgid "City"
+#~ msgstr "Mesto"
+
+#~ msgid "State"
+#~ msgstr "Država"
+
+#~ msgid "Zip"
+#~ msgstr "Poštna številka"
+
+#~ msgid "Phone"
+#~ msgstr "Telefon"
+
+#~ msgid "Residence"
+#~ msgstr "Prebivališče"
+
+#~ msgid "Mailing Address"
+#~ msgstr "Poštni naslov"
+
+#~ msgid "Relation"
+#~ msgstr "Razmerje"
+
+#, php-format
+#~ msgid "Existing relations: %s"
+#~ msgstr "Obstoječe relacije: %s"
+
+#~ msgid "Example: Father, Mother, Guardian"
+#~ msgstr "Primer: oče, mati, skrbnik"
+
+#~ msgid "Custody"
+#~ msgstr "Skrbništvo"
+
+#~ msgid "Emergency"
+#~ msgstr "Nujna pomoč"
+
+#~ msgid "Contact's Address"
+#~ msgstr "Kontaktni naslov"
+
+#~ msgid "Same as Student"
+#~ msgstr "Enako kot dijak"
+
+#~ msgid "New Address"
+#~ msgstr "Novi naslov"
+
+#~ msgid "Information"
+#~ msgstr "Informacija"
+
+#~ msgid "Value"
+#~ msgstr "Vrednost"
+
+#~ msgid "Description"
+#~ msgstr "Opis"
+
+#, php-format
+#~ msgid "Existing descriptions: %s"
+#~ msgstr "Obstoječi opisi: %s"
+
+#~ msgid "Add Information"
+#~ msgstr "Dodaj informacijo"
+
+#, php-format
+#~ msgid "Your account was activated (%d). You can login at %s"
+#~ msgstr "Vaš račun je bil aktiviran (%d). Prijavite se lahko na %s"
+
+#~ msgid "Student Account"
+#~ msgstr "Dijakov Račun"
+
+#~ msgid ""
+#~ "A user with that username already exists. Choose a different username and "
+#~ "try again."
+#~ msgstr ""
+#~ "Uporabnik s tem uporabniškim imenom že obstaja. Izberite drugo "
+#~ "uporabniško ime in poskusite znova."
+
+#~ msgid "Please enter valid Numeric data."
+#~ msgstr "Vnesite veljavne številske podatke."
+
+#~ msgid "Some dates were not entered correctly."
+#~ msgstr "Nekateri datumi niso bili pravilno vneseni."
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Checkbox"
+#~ msgstr "Potrditveno polje"
+
+#~ msgid "Number"
+#~ msgstr "Število"
+
+#~ msgid "Select Multiple from Options"
+#~ msgstr "V možnostih izberite Več"
+
+#~ msgid "Date"
+#~ msgstr "Datum"
+
+#~ msgid "Long Text"
+#~ msgstr "Dolgi Tekst"
+
+#~ msgid "No student found."
+#~ msgstr "Noben dijak ni bil najden."
+
+#~ msgid "Student Import for "
+#~ msgstr "Importación de Estudiantes para "
+
+#~ msgid "CSV file imported."
+#~ msgstr "Archivo CSV importado."
+
+#~ msgid "Cannot open CSV file."
+#~ msgstr "El archivo CSV no se puede abrir."
+
+#~ msgid "CSV columns reference: see \"CSV_COLUMNS_REFERENCE\" file."
+#~ msgstr ""
+#~ "Referencia de columnas CSV: ver el archivo \"CSV_COLUMNS_REFERENCE\"."
+
+#~ msgid "Set Username as %s"
+#~ msgstr "Definir Nombre de Usuario como %s"
+
+#~ msgid "Set Password as %s"
+#~ msgstr "Definir Contraseña como %s"
+
+#~ msgid "Select CSV file"
+#~ msgstr "Seleccionar archivo CSV"
+
+#~ msgid "Import CSV file"
+#~ msgstr "Importar archivo CSV"
+
+#~ msgid "The following required columns were not found in the CSV file: %s"
+#~ msgstr ""
+#~ "Las columnas requeridas no han sido encontradas en el archivo CSV: %s"
+
+#~ msgid "# of Students"
+#~ msgstr "# de Estudiantes"
+
+#~ msgid "# of Administrators"
+#~ msgstr "# de Administradores"
+
+#~ msgid "# of Teachers"
+#~ msgstr "# de Docentes"
+
+#~ msgid "# of Parents"
+#~ msgstr "# de Padres"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Create Subject PDF for Selected Students"
+#~ msgstr "Crear el PDF Materia para los Estudiantes Seleccionados"
+
+#~ msgid "Example Widget"
+#~ msgstr "Widget de Ejemplo"
+
+#~ msgid "Setup"
+#~ msgstr "Configuración"
+
+#~ msgid "Example Resource"
+#~ msgstr "Recurso de Ejemplo"
+
+#~ msgid "The configuration value has been modified."
+#~ msgstr "El valor de configuración ha sido modificado."
+
+#~ msgid "Example module Setup"
+#~ msgstr "Configuración del Módulo Ejemplo"
+
+#~ msgid "Try to enter a non-numeric value"
+#~ msgstr "Intente entrar un valor no numerico"
+
+#~ msgid "Example config value label"
+#~ msgstr "Ejemplo de nombre del valor de config"

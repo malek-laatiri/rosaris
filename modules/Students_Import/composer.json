@@ -1,0 +1,26 @@
+{
+	"name": "francoisjacquet/students_import",
+	"description": "Import Students from a CSV or Excel file. Import Students info (general & custom fields), enroll them & eventually create accounts.",
+	"keywords": ["import", "students", "enroll", "account", "notification", "csv", "excel"],
+	"homepage": "https://www.rosariosis.org/modules/students-import/",
+	"license": "GPL-2.0-or-later",
+	"authors": [{
+		"name": "François Jacquet"
+	}],
+	"type": "rosariosis-module",
+	"version": "11.1",
+	"time": "2025-08-25",
+	"require": {
+		"php": ">=5.5.9"
+	},
+	"extra": {
+		"require": {
+			"francoisjacquet/rosariosis": ">=5.0"
+		},
+		"self_url": "https://gitlab.com/francoisjacquet/Students_Import/raw/master/composer.json"
+	},
+	"_comment": [
+		"https://getcomposer.org/doc/04-schema.md",
+		"https://wp-kama.com/note/package-versions-in-composer-json"
+	]
+}
