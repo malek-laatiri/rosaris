@@ -1,0 +1,158 @@
+/**
+ * CSS rules for Right To Left languages (Arabic...)
+ *
+ * @package CoolAdmin theme
+ */
+
+html[dir="RTL"] .wp-submenu {
+	right: 0;
+	left: auto !important;
+	-webkit-transition: 0s top, 0s right;
+	transition: 0s top, 0s right;
+}
+
+/* Edge browser fix: Do not merge focus-within styles with hover styles */
+
+html.no-touch[dir="RTL"] .menu-module:focus-within .wp-submenu {
+	right: 280px;
+	box-shadow: -2px 2px 5px 0 rgba(0, 0, 0, .1);
+}
+
+html.no-touch[dir="RTL"] .menu-module:hover .wp-submenu {
+	right: 280px;
+	box-shadow: -2px 2px 5px 0 rgba(0, 0, 0, .1);
+}
+
+html[dir="RTL"] #selectedModuleLink + .wp-submenu .menu-inter,
+html[dir="RTL"] #selectedModuleLink + .wp-submenu a {
+	padding-right: 62px;
+	padding-left: 18px;
+}
+
+html[dir="RTL"] .menu-top span,
+html[dir="RTL"] .dashboard-module-title span {
+	margin-left: 6px;
+	padding-right: 0;
+}
+
+html[dir="RTL"] .dashboard-module-data {
+	padding-right: 34px;
+	padding-left: 0;
+}
+
+html[dir="RTL"] .widefat th:first-of-type,
+html[dir="RTL"] .widefat thead th:first-of-type {
+	border-top-left-radius: 0;
+	border-top-right-radius: 10px
+}
+
+html[dir="RTL"] .widefat th:last-of-type,
+html[dir="RTL"] .widefat thead th:last-of-type {
+	border-top-right-radius: 0;
+	border-top-left-radius: 10px
+}
+
+html[dir="RTL"] .widefat th:only-of-type,
+html[dir="RTL"] .widefat thead th:only-of-type {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px
+}
+
+html[dir="RTL"] .widefat tfoot th:first-of-type {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 10px
+}
+
+html[dir="RTL"] .widefat tfoot th:last-of-type {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 10px
+}
+
+html[dir="RTL"] .header2.align-right input[type="button"],
+html[dir="RTL"] .header2.align-right input[type="reset"],
+html[dir="RTL"] .header2.align-right input[type="submit"] {
+	margin: 0 16px 0 0;
+}
+
+/* Password input */
+
+html[dir="RTL"] input:has(+ .password-toggle) {
+	padding-right: 28px;
+}
+
+/* Teacher programs */
+
+html[dir="RTL"] .teacher-programs-wrapper {
+	margin-left: 0;
+	margin-right: -9px;
+}
+
+html[dir="RTL"] input[type="number"] {
+	padding-right: .6em;
+	padding-left: 2px;
+}
+
+@media only screen and (max-width:1601px) {
+	html.no-touch[dir="RTL"] .menu-module:focus-within .wp-submenu {
+		right: 250px;
+	}
+	html.no-touch[dir="RTL"] .menu-module:hover .wp-submenu {
+		right: 250px;
+	}
+}
+
+@media only screen and (max-width:1023px) {
+	html[dir="RTL"] .widefat th:first-of-type,
+	html[dir="RTL"] .widefat thead th:first-of-type {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 0
+	}
+	html[dir="RTL"] .widefat.rt th:last-of-type {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 10px;
+		border-top-left-radius: 0
+	}
+	html[dir="RTL"] .widefat.rt tfoot th:last-of-type {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 10px;
+	}
+	/* Calendar responsive */
+	html[dir="RTL"] .calendar-day .hover:hover {
+		right: 0;
+	}
+	/*fridays, saturdays*/
+	html[dir="RTL"] .calendar-day.thu-fri-sat .hover:hover {
+		left: 0;
+		right: auto;
+	}
+	html[dir="RTL"] .calendar-day.hover:hover > table {
+		left: auto;
+		right: 0;
+		box-shadow: -2px 2px 2px 1px rgba(0, 0, 0, 0.1)
+	}
+	/*fridays, saturdays*/
+	html[dir="RTL"] .calendar-day.thu-fri-sat.hover:hover > table {
+		left: 0;
+		right: auto;
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1)
+	}
+}
+
+@media only screen and (max-width: 874px) {
+	html[dir="RTL"] #selectedModuleLink + .wp-submenu .menu-inter,
+	html[dir="RTL"] #selectedModuleLink + .wp-submenu a {
+		padding-right: 57px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	html[dir="RTL"] .st > .align-right,
+	html[dir="RTL"] .st > .center {
+		text-align: right;
+	}
+	html[dir="RTL"] .header2.align-right input[type="button"],
+	html[dir="RTL"] .header2.align-right input[type="reset"],
+	html[dir="RTL"] .header2.align-right input[type="submit"] {
+		margin: 0 0 0 16px;
+	}
+}

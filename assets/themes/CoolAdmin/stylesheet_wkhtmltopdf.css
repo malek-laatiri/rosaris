@@ -1,0 +1,18 @@
+/**
+ * CoolAdmin theme
+ * FlatSIS custom theme
+ *
+ * Rules for wkhtmltopdf
+ *
+ * @link https://github.com/puikinsh/CoolAdmin
+ * @link https://colorlib.com/polygon/cooladmin/index.html
+ *
+ * @package CoolAdmin theme
+ */
+
+@import url("../FlatSIS/stylesheet_wkhtmltopdf.css");
+@import url("stylesheet_wkhtmltopdf.min.css");
+body,
+html {
+	background: #fff;
+}

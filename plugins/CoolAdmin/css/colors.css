@@ -1,0 +1,580 @@
+/**
+ * colors
+ */
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="time"],
+input[type="color"],
+select {
+	border-color: #ced4da;
+	background: #fff;
+	/* Normalize color on iOS 15+ */
+	color: #495057;
+}
+
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+	border-color: #ced4da !important;
+}
+
+input[type="button"]:hover,
+input[type="email"]:hover,
+input[type="file"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="reset"]:hover,
+input[type="search"]:hover,
+input[type="submit"]:hover,
+input[type="tel"]:hover,
+input[type="text"]:hover,
+input[type="url"]:hover,
+input[type="color"]:hover,
+input[type="time"]:hover,
+input[type="color"]:hover,
+select:hover,
+textarea:hover {
+	border-color: #ced4da;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="time"]:focus,
+input[type="color"]:focus,
+select:focus {
+	border-color: #80bdff;
+	border-bottom-color: #80bdff;
+	outline: none;
+	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.select2-container--default.select2-container--focus .select2-selection--single,
+.select2-container--default.select2-container--focus .select2-selection--multiple,
+.select2-container--default.select2-container--open .select2-selection--single,
+.select2-container--default.select2-container--open .select2-selection--multiple {
+	border-color: #80bdff !important;
+	border-bottom-color: #80bdff !important;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+/* Select2 */
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background-color: #4272d7 !important;
+}
+
+.select2-container--default .select2-selection__rendered {
+	color: #495057 !important;
+}
+
+code {
+	background: #e9ecef;
+}
+
+hr {
+	background: rgba(0, 0, 0, .125);
+}
+
+blockquote {
+	border-left-color: #e9ecef;
+}
+
+input[readonly] {
+	background: #e9ecef;
+}
+
+/* Body bg grey + elements bg white */
+
+html,
+body {
+	background: #e5e5e5;
+}
+
+body {
+	color: #555;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #333;
+}
+
+#menu {
+	background: #fff;
+	border-color: #e5e5e5;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+	color: #555;
+}
+
+#menu-top {
+	background: #f5f5f5;
+}
+
+/*FixedMenu bug not properly fixed to bottom*/
+
+#menu.fixedmenu-fixed + div {
+	background: #fff;
+}
+
+#menu-top select {
+	border-color: #e5e5e5;
+	background: #fff;
+	color: #555;
+}
+
+#menu-top select:focus {
+	border-bottom-color: #e5e5e5;
+}
+
+.menu-inter {
+	color: #666;
+	border-color: #f2f2f2;
+}
+
+#footer {
+	background: #f5f5f5;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+#footerwrap {
+	border-color: transparent;
+}
+
+#footerhelp {
+	background: #fff;
+}
+
+::selection {
+	color: white;
+	background: #4272d7;
+}
+
+.postbox > thead th {
+	background: #f8f8f8;
+}
+
+.postbox .h3selected {
+	border-top: 0;
+	border-bottom: 1px solid #fff;
+}
+
+.postbox > thead th {
+	border-bottom-color: rgba(0, 0, 0, .125);
+}
+
+.postbox th,
+.postbox th h3,
+.postbox th:hover,
+.postbox th:hover h3 {
+	color: #333;
+	font-weight: 700;
+}
+
+.postbox {
+	background: #fff;
+}
+
+.widefat {
+	border-color: #cacaca;
+}
+
+.widefat {
+	background: transparent;
+}
+
+.widefat th,
+.widefat tfoot tr th,
+.widefat th:hover,
+.widefat tfoot tr th:hover {
+	background: #333;
+	color: #fff;
+}
+
+.widefat th .button {
+	/* Colorize black button in white */
+	filter: invert(100%);
+}
+
+.widefat th a {
+	color: #fff;
+}
+
+.widefat tr:nth-child(odd),
+.alternate,
+.alt {
+	background: #f5f5f5
+}
+
+.widefat thead tr:nth-child(odd) {
+	background: transparent
+}
+
+.widefat tr:nth-child(even) {
+	background: #fff
+}
+
+.widefat tr:hover {
+	color: #444;
+}
+
+.wp-submenu,
+.highlight,
+.widefat tr.highlight {
+	color: #444;
+}
+
+input[type=button],
+input[type=submit],
+input[type=button]:hover,
+input[type=submit]:hover {
+	color: #fff
+}
+
+input[type=button]:focus,
+input[type=submit]:focus,
+input[type="reset"]:focus {
+	color: #fff;
+	box-shadow: 0 0 0 .2rem rgba(108, 117, 125, .5);
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	color: #fff;
+	background: #6c757d;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+	background: #545b62;
+}
+
+/* Primary button */
+
+input.button-primary,
+button.button-primary,
+a.button-primary {
+	font-weight: normal;
+	color: #fff;
+	background: #007bff;
+}
+
+input.button-primary:hover,
+button.button-primary:hover,
+a.button-primary:hover,
+input.button-primary:active,
+button.button-primary:active,
+a.button-primary:active {
+	background: #0062cc;
+}
+
+input.button-primary:focus,
+button.button-primary:focus,
+a.button-primary:focus {
+	background: #0062cc;
+	color: #fff;
+	outline: none;
+	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5);
+}
+
+a:hover,
+a:active,
+a:focus,
+.adminmenu a:hover,
+.adminmenu a:focus {
+	color: #007bff;
+}
+
+input[type="radio"]:focus {
+	outline: none;
+	box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+div.error,
+div.updated {
+	border: 1px solid #f5c6cb;
+}
+
+div.error {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+
+div.updated {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+
+a {
+	color: #007bff;
+}
+
+a:hover,
+a:active,
+a:focus {
+	color: #0056b3;
+}
+
+a:active,
+a:focus,
+.wp-submenu a:focus {
+	outline: none;
+}
+
+summary:focus {
+	outline: none;
+}
+
+.adminmenu a {
+	color: #555;
+}
+
+#selectedModuleLink,
+.adminmenu a:hover,
+a.menu-top:hover,
+a.menu-top:focus,
+.BottomButton:hover,
+.BottomButton:active,
+.BottomButton:focus {
+	color: #4272d7;
+}
+
+a.menu-top,
+.BottomButton {
+	color: #555;
+}
+
+.BottomButton img {
+	background-color: transparent;
+}
+
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+
+.BottomButton img {
+	opacity: 0.69;
+}
+
+.BottomButton:hover img,
+.BottomButton:active img,
+.BottomButton:focus img {
+	opacity: 1;
+	filter: invert(38%) sepia(97%) saturate(1857%) hue-rotate(207deg) brightness(89%) contrast(87%);
+}
+
+.postbox th h3 a {
+	border-color: transparent;
+}
+
+.postbox .h3selected a,
+.postbox .h3selected a:hover {
+	border-color: rgba(0, 0, 0, .125);
+	color: #495057;
+}
+
+.postbox th h3 a:hover {
+	border-color: rgba(0, 0, 0, .062);
+}
+
+.postbox .h3selected a,
+.postbox th h3 a:hover {
+	background: #fff;
+}
+
+.adminmenu {
+	background: #fff;
+}
+
+.menu-top {
+	background-color: #fff;
+}
+
+#selectedModuleLink,
+.menu-top:hover,
+.menu-top:focus {
+	background-color: #fff;
+}
+
+/* Edge browser fix: Do not merge focus-within styles with hover styles */
+
+.no-touch .menu-module:focus-within .menu-top {
+	color: #4272d7;
+}
+
+.no-touch .menu-module:hover .menu-top {
+	color: #4272d7;
+}
+
+.wp-submenu {
+	background: #fff;
+}
+
+.wp-submenu a:focus,
+.wp-submenu a:active,
+.wp-submenu a:hover,
+#selectedMenuLink {
+	background-color: #fff;
+	color: #4272d7;
+}
+
+/*added*/
+
+.header2 {
+	background: #fff;
+	border-bottom: 1px solid #f2f2f2;
+	border-top: 0
+}
+
+#courses_div {
+	background: #fff
+}
+
+fieldset {
+	border-color: rgba(0, 0, 0, .125);
+}
+
+.bgcolor {
+	background: #ececec
+}
+
+.legend-gray {
+	color: #666;
+}
+
+.legend-red {
+	color: #ff4b5a
+}
+
+/* MarkDown */
+
+.md-preview .tab.disabled {
+	color: #495057;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.md-preview .tab,
+.md-preview > div {
+	border-color: #cacaca;
+}
+
+.md-preview .tab {
+	background: #fff;
+	border-color: transparent;
+}
+
+.md-preview .tab:hover {
+	border-color: #e9ecef #e9ecef #fff;
+}
+
+/*Side current person*/
+
+.current-person.student {
+	background: #007bff;
+}
+
+.current-person.staff {
+	background: #0baa38;
+}
+
+.current-person.self {
+	background: #ffc107;
+}
+
+/*calendar*/
+
+#calendar th {
+	background: #333;
+}
+
+.calendar-event {
+	border-color: #333
+}
+
+/*arrows*/
+
+.switchMenu:before {
+	color: #4b4b4b;
+}
+
+/*bottom*/
+
+#BottomButtonMenu svg {
+	stroke: #555;
+	background-color: transparent;
+}
+
+#BottomButtonMenu:hover svg,
+#BottomButtonMenu:active svg,
+#BottomButtonMenu:focus svg {
+	stroke: #4272d7;
+}
+
+/* Tooltip */
+
+.tooltip > i {
+	background: #333;
+	border: 1px solid #333;
+}
+
+/* Teacher Programs */
+
+.teacher-programs-wrapper {
+	border-color: #f5f5f5;
+}
+
+/**
+ * Upsell Premium
+ *
+ * @since 12.1
+ */
+
+.button-upsell-premium {
+	color: #323740;
+}
+
+.button-upsell-premium:focus {
+	box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5);
+}
+
+.button-upsell-premium:hover,
+.button-upsell-premium:active {
+	background-color: #f1b911;
+}
+
+/*responsive tables*/
+
+@media only screen and (max-width: 1023px) {
+	.rt tr {
+		border-right-color: transparent
+	}
+}

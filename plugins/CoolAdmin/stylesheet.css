@@ -1,0 +1,12 @@
+/**
+ * CoolAdmin theme
+ * FlatSIS custom theme
+ *
+ * @link https://github.com/puikinsh/CoolAdmin
+ * @link https://colorlib.com/polygon/cooladmin/index.html
+ *
+ * @package CoolAdmin theme
+ */
+
+@import url("../FlatSIS/stylesheet.css");
+@import url("stylesheet.min.css");

@@ -1,0 +1,26 @@
+{
+    "name": "francoisjacquet/staff_parents_import",
+    "description": "Import Users from a CSV or Excel file. Easily bulk upload your staff, teachers and/or parents database to RosarioSIS. Import Users info (general & custom fields) & eventually create accounts.",
+    "keywords": ["import", "user", "staff", "teacher", "parent", "csv", "excel", "account"],
+    "homepage": "https://www.rosariosis.org/modules/staff-parents-import/",
+    "license": "GPL-2.0-or-later",
+    "authors": [{
+        "name": "François Jacquet"
+    }],
+    "type": "rosariosis-module",
+    "version": "12.1",
+    "time": "2025-12-10",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "extra": {
+        "require": {
+            "francoisjacquet/rosariosis": ">=4.5"
+        },
+        "self_url": "https://gitlab.com/francoisjacquet/Staff_Parents_Import/raw/master/composer.json"
+    },
+    "_comment": [
+        "https://getcomposer.org/doc/04-schema.md",
+        "https://wp-kama.com/note/package-versions-in-composer-json"
+    ]
+}

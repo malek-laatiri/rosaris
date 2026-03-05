@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Staff and Parents Import Module for RosarioSIS.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-31 19:30+0200\n"
+"PO-Revision-Date: 2023-08-15 15:52+0200\n"
+"Last-Translator: François Jacquet <info@rosariosis.org>\n"
+"Language-Team: RosarioSIS <info@rosariosis.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: dgettext:2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Menu.php:13
+msgid "Staff Parents Import"
+msgstr "Uvoz staršev osebja"
+
+#: Menu.php:25 Menu.php:32
+msgid "Staff and Parents Import"
+msgstr "Uvoz osebja in staršev"
+
+#: StaffParentsImport.php:53 StaffParentsImport.php:84
+msgid "Cannot open file."
+msgstr "Datoteke ni mogoče odpreti."
+
+#: StaffParentsImport.php:92
+#, php-format
+msgid "%s users were imported."
+msgstr "%s uporabnikov je bilo uvoženih."
+
+#: StaffParentsImport.php:152
+msgid "Database Backup"
+msgstr "Varnostno kopiranje baze podatkov"
+
+#: StaffParentsImport.php:156
+#, php-format
+msgid "Maximum file size: %01.0fMb"
+msgstr "Največja velikost datoteke: %01.0fMb"
+
+#: StaffParentsImport.php:158
+msgid "Select CSV or Excel file"
+msgstr "Izberite datoteko CSV ali Excel"
+
+#: StaffParentsImport.php:160
+msgid "Submit"
+msgstr "Vpiši"
+
+#: StaffParentsImport.php:189
+#, php-format
+msgid "%s rows"
+msgstr "%s vrstic"
+
+#: StaffParentsImport.php:191 StaffParentsImport.php:401
+msgid "Import Users"
+msgstr "Uvozi uporabnike"
+
+#: StaffParentsImport.php:205
+msgid ""
+"Are you absolutely ready to import users? Make sure you have backed up your "
+"database!"
+msgstr ""
+"Ali ste povsem pripravljeni na uvoz uporabnikov? Prepričajte se, da ste "
+"varnostno kopirali bazo podatkov!"
+
+#: StaffParentsImport.php:215
+msgid "Stop"
+msgstr "Ustavi"
+
+#: StaffParentsImport.php:248
+msgid "Import first row"
+msgstr "Uvozi prvo vrstico"
+
+#: StaffParentsImport.php:255
+msgid "Reset form"
+msgstr "Ponastavi obrazec"
+
+#: StaffParentsImport.php:266
+msgid "User Fields"
+msgstr "Uporabniška polja"
+
+#: StaffParentsImport.php:269
+msgid "First Name"
+msgstr "Ime"
+
+#: StaffParentsImport.php:273
+msgid "Middle Name"
+msgstr ""
+
+#: StaffParentsImport.php:277
+msgid "Last Name"
+msgstr "Priimek"
+
+#: StaffParentsImport.php:281 includes/SendNotifications.fnc.php:62
+msgid "Username"
+msgstr "Uporabniško ime"
+
+#: StaffParentsImport.php:285 includes/SendNotifications.fnc.php:66
+msgid "Password"
+msgstr "Geslo"
+
+#: StaffParentsImport.php:289 includes/StaffParentsImport.fnc.php:431
+msgid "Administrator"
+msgstr ""
+
+#: StaffParentsImport.php:290 includes/StaffParentsImport.fnc.php:432
+msgid "Teacher"
+msgstr "Vzgojitelj"
+
+#: StaffParentsImport.php:291 includes/StaffParentsImport.fnc.php:433
+msgid "Parent"
+msgstr "Starš"
+
+#: StaffParentsImport.php:292 includes/StaffParentsImport.fnc.php:434
+msgid "No Access"
+msgstr "Ni dostopa"
+
+#: StaffParentsImport.php:299
+msgid "User Profile"
+msgstr "Uporabniški profil"
+
+#: StaffParentsImport.php:306
+msgid "Email Address"
+msgstr "Email naslov"
+
+#: StaffParentsImport.php:310
+msgid "Phone Number"
+msgstr "Telefonska številka"
+
+#: StaffParentsImport.php:316
+msgid ""
+"Notifications are sent if Username, Password, User Profile and Email Address "
+"are set."
+msgstr ""
+"Obvestila se pošljejo, če so nastavljeni uporabniško ime, geslo, uporabniški "
+"profil in e-poštni naslov."
+
+#: StaffParentsImport.php:322
+msgid "Send email notification to Users"
+msgstr "Pošlji e-poštno obvestilo uporabnikom"
+
+#: includes/SendNotifications.fnc.php:56
+#, php-format
+msgid "Your account was activated (%d). You can login at %s"
+msgstr "Vaš račun je bil aktiviran (%d). Prijavite se lahko na %s"
+
+#: includes/SendNotifications.fnc.php:71
+msgid "User Account"
+msgstr "Uporabniški račun"
+
+#: includes/StaffParentsImport.fnc.php:304
+#, php-format
+msgid "%d notifications sent."
+msgstr "%d poslanih obvestil."
+
+#: includes/StaffParentsImport.fnc.php:337
+msgid "No names were found."
+msgstr "Imena niso bila najdena."
+
+#: includes/StaffParentsImport.fnc.php:357
+msgid ""
+"A user with that username already exists. Choose a different username and "
+"try again."
+msgstr ""
+"Uporabnik s tem uporabniškim imenom že obstaja. Izberite drugo uporabniško "
+"ime in poskusite znova."
+
+#: includes/StaffParentsImport.fnc.php:597
+msgid "Please enter valid Numeric data."
+msgstr "Vnesite veljavne številske podatke."
+
+#: includes/StaffParentsImport.fnc.php:606
+msgid "Some dates were not entered correctly."
+msgstr "Nekateri datumi niso bili pravilno vneseni."
+
+#: includes/StaffParentsImport.fnc.php:851
+msgid "Pull-Down"
+msgstr ""
+
+#: includes/StaffParentsImport.fnc.php:852
+msgid "Auto Pull-Down"
+msgstr ""
+
+#: includes/StaffParentsImport.fnc.php:853
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/StaffParentsImport.fnc.php:854
+msgid "Checkbox"
+msgstr "Potrditveno polje"
+
+#: includes/StaffParentsImport.fnc.php:855
+msgid "Export Pull-Down"
+msgstr ""
+
+#: includes/StaffParentsImport.fnc.php:856
+msgid "Number"
+msgstr "Številka"
+
+#: includes/StaffParentsImport.fnc.php:857
+msgid "Select Multiple from Options"
+msgstr "V možnostih izberite Več"
+
+#: includes/StaffParentsImport.fnc.php:858
+msgid "Date"
+msgstr "Datum"
+
+#: includes/StaffParentsImport.fnc.php:859
+msgid "Long Text"
+msgstr "Dolgi tekst"
+
+#~ msgid "IDs are automatically generated if you select \"N/A\"."
+#~ msgstr "Les IDs sont automatiquement générés si vous séleccionnez \"N/D\"."
+
+#~ msgid "If the date is left empty, users will not be enrolled (inactive)."
+#~ msgstr ""
+#~ "Si vous n'indiquez pas de date, les élèves ne seront pas inscrits "
+#~ "(inactifs)."
+
+#~ msgid "Staff and Parents Import for "
+#~ msgstr "Importación de Estudiantes para "
+
+#~ msgid "CSV file imported."
+#~ msgstr "Archivo CSV importado."
+
+#~ msgid "Cannot open CSV file."
+#~ msgstr "El archivo CSV no se puede abrir."
+
+#~ msgid "CSV columns reference: see \"CSV_COLUMNS_REFERENCE\" file."
+#~ msgstr ""
+#~ "Referencia de columnas CSV: ver el archivo \"CSV_COLUMNS_REFERENCE\"."
+
+#~ msgid "Set Username as %s"
+#~ msgstr "Definir Nombre de Usuario como %s"
+
+#~ msgid "Set Password as %s"
+#~ msgstr "Definir Contraseña como %s"
+
+#~ msgid "Select CSV file"
+#~ msgstr "Seleccionar archivo CSV"
+
+#~ msgid "Import CSV file"
+#~ msgstr "Importar archivo CSV"
+
+#~ msgid "The following required columns were not found in the CSV file: %s"
+#~ msgstr ""
+#~ "Las columnas requeridas no han sido encontradas en el archivo CSV: %s"
+
+#~ msgid "# of Users"
+#~ msgstr "# de Estudiantes"
+
+#~ msgid "# of Administrators"
+#~ msgstr "# de Administradores"
+
+#~ msgid "# of Teachers"
+#~ msgstr "# de Docentes"
+
+#~ msgid "# of Parents"
+#~ msgstr "# de Padres"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Create Subject PDF for Selected Users"
+#~ msgstr "Crear el PDF Materia para los Estudiantes Seleccionados"
+
+#~ msgid "Example Widget"
+#~ msgstr "Widget de Ejemplo"
+
+#~ msgid "Setup"
+#~ msgstr "Configuración"
+
+#~ msgid "Example Resource"
+#~ msgstr "Recurso de Ejemplo"
+
+#~ msgid "The configuration value has been modified."
+#~ msgstr "El valor de configuración ha sido modificado."
+
+#~ msgid "Example module Setup"
+#~ msgstr "Configuración del Módulo Ejemplo"
+
+#~ msgid "Try to enter a non-numeric value"
+#~ msgstr "Intente entrar un valor no numerico"
+
+#~ msgid "Example config value label"
+#~ msgstr "Ejemplo de nombre del valor de config"

@@ -1,0 +1,32 @@
+/* icons.css */
+
+.module-icon {
+	vertical-align: -50%;
+}
+
+#menu .module-icon {
+	width: 24px;
+	height: 24px;
+	vertical-align: -25%;
+	filter: grayscale(100%);
+}
+
+#selectedModuleLink .module-icon {
+	filter: none;
+}
+
+#menu .menu-top:hover .module-icon {
+	filter: grayscale(0%);
+}
+
+.no-touch #menu .menu-module:focus-within .module-icon {
+	filter: none;
+}
+
+.no-touch #menu .menu-module:hover .module-icon {
+	filter: none;
+}
+
+.header1 .module-icon {
+	vertical-align: -13%;
+}

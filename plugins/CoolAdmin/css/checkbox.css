@@ -1,0 +1,56 @@
+/**
+ * checkbox
+ *
+ * @link https://www.htmhell.dev/adventcalendar/2023/2/
+ */
+
+input[type=checkbox] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	display: inline-block;
+	background: lightgrey;
+	height: 1.32rem;
+	width: 2.2rem;
+	vertical-align: middle;
+	border-radius: 1.6rem;
+	box-shadow: 0px 1px 3px #0003 inset;
+	transition: 0.12s linear background;
+}
+
+input[type=checkbox]::before {
+	content: "";
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	border: none;
+	border-radius: 0.96rem;
+	position: absolute;
+	top: 0.16rem;
+	left: 0.16rem;
+	box-shadow: 0 1px 3px #0003;
+	transition: 0.12s linear transform;
+	transform: translateX(0rem);
+}
+
+input[type=checkbox]:checked {
+	background: #0baa38;
+}
+
+input[type=checkbox]:checked::before {
+	transform: translateX(0.8rem);
+	background: #fff;
+	box-shadow: 0 1px 3px #0003;
+}
+
+input[type=checkbox]:focus {
+	outline: none;
+	outline-color: transparent;
+}
+
+input[type=checkbox]:focus-visible {
+	outline: 2px solid dodgerblue;
+	outline-offset: 2px;
+}

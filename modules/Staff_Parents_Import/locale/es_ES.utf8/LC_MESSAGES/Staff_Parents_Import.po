@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Staff and Parents Import Module for RosarioSIS.\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-23 12:15+0200\n"
+"PO-Revision-Date: 2023-09-23 12:16+0200\n"
+"Last-Translator: François Jacquet <info@rosariosis.org>\n"
+"Language-Team: RosarioSIS <info@rosariosis.org>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: ;dgettext:2;dngettext:2,3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Menu.php:13
+msgid "Staff Parents Import"
+msgstr "Importación de Empleados y Padres"
+
+#: Menu.php:25 Menu.php:32
+msgid "Staff and Parents Import"
+msgstr "Importación de Empleados y Padres"
+
+#: StaffParentsImport.php:53 StaffParentsImport.php:75
+msgid "Cannot open file."
+msgstr "El archivo no se puede abrir."
+
+#: StaffParentsImport.php:83
+#, php-format
+msgid "%s users were imported."
+msgstr "%s usuarios han sido importados."
+
+#: StaffParentsImport.php:140
+msgid "Select CSV or Excel file"
+msgstr "Seleccionar archivo CSV o Excel"
+
+#: StaffParentsImport.php:171
+#, php-format
+msgid "%s rows"
+msgstr "%s líneas"
+
+#: StaffParentsImport.php:173 StaffParentsImport.php:383
+msgid "Import Users"
+msgstr "Importar Usuarios"
+
+#: StaffParentsImport.php:187
+msgid ""
+"Are you absolutely ready to import users? Make sure you have backed up your "
+"database!"
+msgstr ""
+"Está listo para importar los usuarios? Asegurese de haber hecho un backup de "
+"la base de datos!"
+
+#: StaffParentsImport.php:197
+msgid "Stop"
+msgstr "Pare"
+
+#: StaffParentsImport.php:230
+msgid "Import first row"
+msgstr "Importar la primera línea"
+
+#: StaffParentsImport.php:237
+msgid "Reset form"
+msgstr "Restablecer formulario"
+
+#: StaffParentsImport.php:298
+msgid ""
+"Notifications are sent if Username, Password, User Profile and Email Address "
+"are set."
+msgstr ""
+"Las notificaciones están enviadas si el Nombre de Usuario, la Contraseña, el "
+"Perfil del Usuario y el Email están definidos."
+
+#: StaffParentsImport.php:304
+msgid "Send email notification to Users"
+msgstr "Enviar notificación por email a los Usuarios"
+
+#: includes/StaffParentsImport.fnc.php:81
+#, php-format
+msgid "Excel error reading file %s: %s. Please convert the file to CSV format."
+msgstr ""
+"Error Excel leyendo el archivo %s: %s. Por favor convertir el archivo en "
+"formato CSV."
+
+#: includes/StaffParentsImport.fnc.php:346
+#, php-format
+msgid "%d notifications sent."
+msgstr "%d notificaciones enviadas."
+
+#: includes/StaffParentsImport.fnc.php:379
+msgid "No names were found."
+msgstr "No se encontró ningún nombre."
+
+#~ msgid ""
+#~ "PHP zip extension is required. Please enable it or convert your file to "
+#~ "CSV."
+#~ msgstr ""
+#~ "Extensión PHP zip requerida. Por favor activarla o convertir su archivo "
+#~ "en CSV."
+
+#, php-format
+#~ msgid ""
+#~ "PHPExcel error reading file %s: %s. Please convert the file to CSV format."
+#~ msgstr ""
+#~ "Error PHPExcel leyendo el archivo %s: %s. Por favor convertir el archivo "
+#~ "en formato CSV."
+
+#~ msgid "IDs are automatically generated if you select \"N/A\"."
+#~ msgstr "Los IDs son automaticamente generados si selecciona \"N/A\"."
+
+#~ msgid "If the date is left empty, users will not be enrolled (inactive)."
+#~ msgstr ""
+#~ "Si deja la fecha vacía, los estudiantes no estarán matriculados "
+#~ "(inactivos)."
+
+#~ msgid "Staff and Parents Import for "
+#~ msgstr "Importación de Estudiantes para "
+
+#~ msgid "CSV file imported."
+#~ msgstr "Archivo CSV importado."
+
+#~ msgid "Cannot open CSV file."
+#~ msgstr "El archivo CSV no se puede abrir."
+
+#~ msgid "CSV columns reference: see \"CSV_COLUMNS_REFERENCE\" file."
+#~ msgstr ""
+#~ "Referencia de columnas CSV: ver el archivo \"CSV_COLUMNS_REFERENCE\"."
+
+#~ msgid "Set Username as %s"
+#~ msgstr "Definir Nombre de Usuario como %s"
+
+#~ msgid "Set Password as %s"
+#~ msgstr "Definir Contraseña como %s"
+
+#~ msgid "Select CSV file"
+#~ msgstr "Seleccionar archivo CSV"
+
+#~ msgid "Import CSV file"
+#~ msgstr "Importar archivo CSV"
+
+#~ msgid "The following required columns were not found in the CSV file: %s"
+#~ msgstr ""
+#~ "Las columnas requeridas no han sido encontradas en el archivo CSV: %s"
+
+#~ msgid "# of Users"
+#~ msgstr "# de Estudiantes"
+
+#~ msgid "# of Administrators"
+#~ msgstr "# de Administradores"
+
+#~ msgid "# of Teachers"
+#~ msgstr "# de Docentes"
+
+#~ msgid "# of Parents"
+#~ msgstr "# de Padres"
+
+#~ msgid "Example"
+#~ msgstr "Ejemplo"
+
+#~ msgid "Create Subject PDF for Selected Users"
+#~ msgstr "Crear el PDF Materia para los Estudiantes Seleccionados"
+
+#~ msgid "Example Widget"
+#~ msgstr "Widget de Ejemplo"
+
+#~ msgid "Setup"
+#~ msgstr "Configuración"
+
+#~ msgid "Example Resource"
+#~ msgstr "Recurso de Ejemplo"
+
+#~ msgid "The configuration value has been modified."
+#~ msgstr "El valor de configuración ha sido modificado."
+
+#~ msgid "Example module Setup"
+#~ msgstr "Configuración del Módulo Ejemplo"
+
+#~ msgid "Try to enter a non-numeric value"
+#~ msgstr "Intente entrar un valor no numerico"
+
+#~ msgid "Example config value label"
+#~ msgstr "Ejemplo de nombre del valor de config"

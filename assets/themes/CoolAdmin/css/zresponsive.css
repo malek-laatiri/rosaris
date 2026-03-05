@@ -1,0 +1,310 @@
+/*Below Full HD screen*/
+
+@media only screen and (max-width:1601px) {
+	#menu {
+		width: 250px;
+	}
+	.wp-submenu,
+	#selectedModuleLink + .wp-submenu {
+		min-width: 250px;
+	}
+	.no-touch .menu-module:focus-within .wp-submenu,
+	.no-touch .menu-module:hover .wp-submenu {
+		left: 251px;
+		width: 250px;
+	}
+	#menu form {
+		padding: 0 24px;
+	}
+	.current-person {
+		padding: 4px 24px;
+	}
+	.adminmenu a {
+		padding: 12px 24px;
+	}
+	.wp-submenu a,
+	.menu-inter {
+		padding: 6px 24px;
+	}
+	#selectedModuleLink + .wp-submenu .menu-inter,
+	#selectedModuleLink + .wp-submenu a {
+		padding-left: 58px;
+		padding-right: 14px;
+	}
+	.today-date.size-1 {
+		font-size: 13px;
+	}
+	#footerwrap {
+		padding: 13px 24px;
+	}
+	#body {
+		padding: 0 24px 24px;
+	}
+	.header2 {
+		padding: 6px 18px;
+	}
+	.list-nav td {
+		padding: 4px 18px;
+	}
+	.widefat th,
+	.list.widefat th {
+		padding: 12px 18px;
+	}
+	.widefat td {
+		padding: 10px 18px;
+	}
+	.popTable {
+		padding: 12px 17px;
+	}
+	.postbox > thead th {
+		padding: 0 18px;
+	}
+	div.error,
+	div.updated {
+		padding: 8px 18px;
+		margin: 20px 0;
+	}
+	.cellpadding-5 td {
+		padding-right: .66rem;
+		padding-bottom: .5rem;
+	}
+	fieldset {
+		padding: 6px 18px;
+	}
+}
+
+/*Below Laptop MDPI screen*/
+
+@media only screen and (max-width:1270px) {
+	tr.address > td {
+		border-style: none none dotted none;
+		padding: 24px 0 24px 0
+	}
+}
+
+/*mobile + tablet vertical*/
+
+@media only screen and (max-width:874px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	h4 {
+		font-size: 17px;
+	}
+	#wrap {
+		padding-top: 44px;
+	}
+	#footerwrap {
+		padding: 10px 21px;
+	}
+	#footerhelp {
+		border-width: 0;
+	}
+	#footerhelp .footerhelp-content {
+		padding: 21px;
+	}
+	#menu .logo {
+		margin: 21px;
+		margin-top: 0;
+	}
+	#menu {
+		top: 44px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		overflow-y: scroll;
+		padding-bottom: 0;
+		min-height: auto;
+	}
+	#menu form {
+		padding: 5px 21px;
+	}
+	.current-person {
+		padding: 2px 21px;
+	}
+	.adminmenu a {
+		padding: 10px 22px;
+	}
+	.wp-submenu a,
+	.menu-inter {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	#selectedModuleLink + .wp-submenu a,
+	#selectedModuleLink + .wp-submenu .menu-inter {
+		padding-left: 57px;
+	}
+	.no-touch .menu-module:hover .wp-submenu,
+	.no-touch .menu-module:focus-within .wp-submenu,
+	.no-touch .menu-module:hover .wp-submenu {
+		top: -1000em;
+		left: 0;
+	}
+	.no-touch .menu-module .wp-submenu,
+	.no-touch .menu-module:hover .wp-submenu {
+		width: 100%;
+	}
+	.header1 {
+		padding-left: 0;
+	}
+	.header1 .module-icon {
+		vertical-align: -26% !important;
+	}
+	.header2 {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.list-nav td {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.list-nav td:last-of-type {
+		padding-bottom: 8px;
+	}
+	#search input,
+	#search select,
+	#LO_search {
+		max-width: 160px
+	}
+	#LO_search + .button {
+		left: -28px;
+		float: left;
+	}
+	#modulesBody textarea {
+		width: 100% !important
+	}
+	/* Chart.js */
+	.chart {
+		width: 84vw;
+		min-width: 450px;
+	}
+	input[type=submit],
+	input[type=reset],
+	input[type=button] {
+		margin: 0 4px;
+	}
+	/*bigger tooltip i*/
+	.tooltip::before {
+		font-size: 0.9em;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+	}
+	/* Smaller tooltip size */
+	.tooltip > i {
+		left: -70px;
+		width: 140px;
+		font-size: 0.9em;
+		line-height: 1.4
+	}
+	/* Teacher Programs */
+	.teacher-programs-wrapper {
+		padding: 1%;
+		width: 99%;
+		margin-left: -1%;
+	}
+	#cboxLoadedContent {
+		padding: 12px !important;
+	}
+	.popTable {
+		padding: 12px;
+	}
+	.widefat td {
+		padding: 8px 12px;
+	}
+	.widefat th,
+	.list.widefat th {
+		padding: 10px 12px;
+	}
+	.list {
+		margin-bottom: 12px;
+	}
+	.list-nav {
+		margin-top: 10px;
+	}
+	.postbox > thead th {
+		padding: 0 11px;
+	}
+	div.error,
+	div.updated {
+		padding: 6px 11px;
+		margin: 16px 0;
+	}
+	fieldset {
+		margin-bottom: 12px;
+		padding: 6px 12px;
+	}
+	fieldset > .widefat {
+		margin-top: 6px;
+		margin-bottom: 8px;
+	}
+	/*stackable tables*/
+	div.st {
+		padding: 6px 12px 0 0
+	}
+	select[name^="month_"],
+	.rt select[name^="month_"] {
+		max-width: 75px;
+	}
+}
+
+@media only screen and (max-width:1023px) {
+	#body {
+		padding: 0 21px 44px;
+	}
+	/*responsive tables*/
+	.rt th,
+	.list.rt th {
+		line-height: 2.137em;
+		height: 2.137em
+	}
+	.widefat.rt th:last-of-type {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 10px
+	}
+	.widefat.rt tfoot th:last-of-type {
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 10px
+	}
+	.rt th,
+	.rt th a {
+		line-height: 2.137em;
+	}
+	.rt td {
+		display: block;
+		line-height: 2.137em;
+		height: 2.137em;
+	}
+	.rt tr {
+		border-right-width: 0;
+	}
+	/*rt td too large*/
+	.list.rt td,
+	.list.rt th {
+		padding: 6px 12px;
+	}
+}
+
+/*320 & 360px mobile*/
+
+@media only screen and (max-width:479px) {
+	#body {
+		padding: 0 12px 21px;
+	}
+	.header1 {
+		padding-left: 7px;
+	}
+	/* Teacher Programs */
+	.teacher-programs-wrapper {
+		padding: 1%;
+		width: 98%;
+		margin-left: -1%;
+	}
+}
