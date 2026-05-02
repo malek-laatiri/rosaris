@@ -1,0 +1,27 @@
+{
+	"name": "francoisjacquet/email_smtp",
+	"description": "Send emails using SMTP instead of the default PHP mail() function. Having problems with RosarioSIS not sending emails? Use this SMTP plugin to fix your email deliverability issues",
+	"keywords": ["smtp", "email", "delivery", "send"],
+	"homepage": "https://www.rosariosis.org/plugins/email-smtp/",
+	"license": "GPL-2.0-or-later",
+	"authors": [{
+		"name": "François Jacquet"
+	}],
+	"type": "rosariosis-plugin",
+	"version": "10.8",
+	"time": "2026-04-24",
+	"require": {
+		"php": ">=5.5.9",
+		"ext-openssl": "*"
+	},
+	"extra": {
+		"require": {
+			"francoisjacquet/rosariosis": ">=3.6.1"
+		},
+		"self_url": "https://gitlab.com/francoisjacquet/Email_SMTP/raw/master/composer.json"
+	},
+	"_comment": [
+		"https://getcomposer.org/doc/04-schema.md",
+		"https://wp-kama.com/note/package-versions-in-composer-json"
+	]
+}
